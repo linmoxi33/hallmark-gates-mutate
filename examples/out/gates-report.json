@@ -1,0 +1,167 @@
+{
+  "file": "examples/in/gates.md",
+  "gate_rows": 90,
+  "f_checks": 26,
+  "rules": [
+    {
+      "rule": "header",
+      "findings": 0
+    },
+    {
+      "rule": "separator",
+      "findings": 0
+    },
+    {
+      "rule": "pipe-balance",
+      "findings": 0
+    },
+    {
+      "rule": "row-width",
+      "findings": 0
+    },
+    {
+      "rule": "id-format",
+      "findings": 0
+    },
+    {
+      "rule": "id-unique",
+      "findings": 0
+    },
+    {
+      "rule": "clause-parent",
+      "findings": 0
+    },
+    {
+      "rule": "retired-id",
+      "findings": 0
+    },
+    {
+      "rule": "tier-vocab",
+      "findings": 0
+    },
+    {
+      "rule": "class-vocab",
+      "findings": 0
+    },
+    {
+      "rule": "tell-fix",
+      "findings": 0
+    },
+    {
+      "rule": "house-tier",
+      "findings": 0
+    },
+    {
+      "rule": "house-prose",
+      "findings": 0
+    },
+    {
+      "rule": "retired-prose",
+      "findings": 0
+    },
+    {
+      "rule": "f-sequence",
+      "findings": 0
+    },
+    {
+      "rule": "waiver-grammar",
+      "findings": 0
+    },
+    {
+      "rule": "min-gates",
+      "findings": 0
+    }
+  ],
+  "mutations": [
+    {
+      "rule": "header",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "separator",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "pipe-balance",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "row-width",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "id-format",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "id-unique",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "clause-parent",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "retired-id",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "tier-vocab",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "class-vocab",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "tell-fix",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "house-tier",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "house-prose",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "retired-prose",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "f-sequence",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "waiver-grammar",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "min-gates",
+      "covered": true,
+      "error": null
+    }
+  ],
+  "mutation_score": "17/17 executed",
+  "mutations_skipped": 0,
+  "findings": [],
+  "self_proven": true,
+  "verdict": "pass"
+}

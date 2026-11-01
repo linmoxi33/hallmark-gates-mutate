@@ -1,0 +1,185 @@
+{
+  "file": "examples/in/gates-broken.md",
+  "gate_rows": 81,
+  "f_checks": 26,
+  "rules": [
+    {
+      "rule": "header",
+      "findings": 1
+    },
+    {
+      "rule": "separator",
+      "findings": 0
+    },
+    {
+      "rule": "pipe-balance",
+      "findings": 0
+    },
+    {
+      "rule": "row-width",
+      "findings": 0
+    },
+    {
+      "rule": "id-format",
+      "findings": 0
+    },
+    {
+      "rule": "id-unique",
+      "findings": 0
+    },
+    {
+      "rule": "clause-parent",
+      "findings": 1
+    },
+    {
+      "rule": "retired-id",
+      "findings": 0
+    },
+    {
+      "rule": "tier-vocab",
+      "findings": 0
+    },
+    {
+      "rule": "class-vocab",
+      "findings": 0
+    },
+    {
+      "rule": "tell-fix",
+      "findings": 0
+    },
+    {
+      "rule": "house-tier",
+      "findings": 1
+    },
+    {
+      "rule": "house-prose",
+      "findings": 0
+    },
+    {
+      "rule": "retired-prose",
+      "findings": 0
+    },
+    {
+      "rule": "f-sequence",
+      "findings": 0
+    },
+    {
+      "rule": "waiver-grammar",
+      "findings": 0
+    },
+    {
+      "rule": "min-gates",
+      "findings": 0
+    }
+  ],
+  "mutations": [
+    {
+      "rule": "header",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "separator",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "pipe-balance",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "row-width",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "id-format",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "id-unique",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "clause-parent",
+      "covered": null,
+      "skipped": true,
+      "error": "seed anchor absent in this input: anchor not found: '| 44d |'"
+    },
+    {
+      "rule": "retired-id",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "tier-vocab",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "class-vocab",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "tell-fix",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "house-tier",
+      "covered": null,
+      "skipped": true,
+      "error": "seed anchor absent in this input: anchor not found: '| 54 | Floor |'"
+    },
+    {
+      "rule": "house-prose",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "retired-prose",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "f-sequence",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "waiver-grammar",
+      "covered": true,
+      "error": null
+    },
+    {
+      "rule": "min-gates",
+      "covered": true,
+      "error": null
+    }
+  ],
+  "mutation_score": "15/15 executed",
+  "mutations_skipped": 2,
+  "findings": [
+    {
+      "rule": "header",
+      "line": 55,
+      "message": "gate table header must be exactly Gate | Tier | Class | The tell | The fix"
+    },
+    {
+      "rule": "clause-parent",
+      "line": 96,
+      "message": "clauses of 44 are not contiguous from 'a': ['a', 'b', 'c', 'e']"
+    },
+    {
+      "rule": "house-tier",
+      "line": 129,
+      "message": "house rule 54 must be Floor, found 'Reflex'"
+    }
+  ],
+  "self_proven": true,
+  "verdict": "findings"
+}
