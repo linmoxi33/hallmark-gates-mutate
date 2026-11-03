@@ -53,7 +53,7 @@ python3 hallmark_gates_mutate.py examples/in/gates.md --json   # machine-readabl
 ```json
 {
   "gate_rows": 81,
-  "mutation_score": "14/15 executed",
+  "mutation_score": "15/15 executed",
   "self_proven": true,
   "verdict": "findings",
   "findings": [
@@ -65,6 +65,16 @@ python3 hallmark_gates_mutate.py examples/in/gates.md --json   # machine-readabl
 
 Exit codes: `0` clean and self-proved · `1` findings · `2` usage, unreadable input, an
 unproved rule, or `--no-mutation`.
+
+## Tests
+
+```bash
+python3 -m unittest discover -s tests -v    # 14 tests
+```
+
+CI additionally runs the two fixture gates above and fails unless the clean spec exits
+`0` and `examples/in/gates-broken.md` exits `1`, so the mutation self-proof is enforced
+on every push.
 
 ## 本轮创新
 
