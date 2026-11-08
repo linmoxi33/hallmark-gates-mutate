@@ -52,14 +52,14 @@ python3 hallmark_gates_mutate.py examples/in/gates.md --json   # machine-readabl
 
 ```json
 {
-  "gate_rows": 81,
-  "mutation_score": "15/15 executed",
+  "file": "examples/in/gates.md",
+  "gate_rows": 90,
+  "f_checks": 26,
+  "mutation_score": "17/17 executed",
+  "mutations_skipped": 0,
   "self_proven": true,
-  "verdict": "findings",
-  "findings": [
-    {"rule": "house-tier", "line": 129,
-     "message": "house rule 54 must be Floor, found 'Reflex'"}
-  ]
+  "verdict": "pass",
+  "findings": []
 }
 ```
 
